@@ -39,4 +39,8 @@ public class DamerauLevenshtein {
         }
         return dist[sourceLength][targetLength];
     }
+
+    public static void main(String ... args) {
+	    System.out.println(calculateDistance(args[0], args[1]));
+    }
 }
